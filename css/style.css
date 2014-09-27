@@ -1182,3 +1182,28 @@ padding: 1.2em 0em;
 	margin-left: 50px;
 }
 }
+
+
+/****/
+
+li.searchLeft, li.searchMiddle, li.searchRight, li.searchAll {
+	border-top: 1px solid #9C0000;
+	border-bottom: 1px solid #9C0000;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+li.searchLeft, li.searchAll {
+	border-left: 1px solid #9C0000;
+	padding-left: 5px;
+}
+
+li.searchMiddle {
+	margin-left: 0 !important;
+}
+
+li.searchRight, li.searchAll {
+	border-right: 1px solid #9C0000;
+	margin-left: 0 !important;
+	padding-right: 5px;
+}
