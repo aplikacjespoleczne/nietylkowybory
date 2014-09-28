@@ -1207,3 +1207,101 @@ li.searchRight, li.searchAll {
 	margin-left: 0 !important;
 	padding-right: 5px;
 }
+/******* details subpage *****************/
+
+.details-container{
+	padding-top: 5%;
+	padding-right: 7%;
+	padding-left: 7%;
+	padding-bottom: 5%;
+}
+
+.detale h2{
+	text-transform: capitalize;
+	font-size: 2em;
+	color: #202227;
+	margin-bottom: 2%;
+	padding-top: 1%;
+}
+.detale p{
+	clear: both;
+	font-size: 1em;
+	color: #555555;
+	line-height: 1.8em;
+	text-align: justify;
+	font-weight: 300;
+	padding-top: 2%;
+}
+.detale p span{
+	font-weight: bold;
+}
+#morelinks{
+	text-align: center;
+}
+.detale a{
+	/*display: block;*/
+	padding: 5px 20px;
+	margin: 10px;
+	text-decoration: none;
+	color: #fff;
+	background: #9c0000;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.detale a:hover{
+	background: #cf0000;
+}
+.detale img{
+	float: left;
+}
+
+/******* example subpage *****************/
+
+.example-container{
+	padding-top: 5%;
+	padding-right: 7%;
+	padding-left: 7%;
+	padding-bottom: 5%;
+}
+
+.example h2{
+	text-transform: capitalize;
+	font-size: 2em;
+	color: #202227;
+	margin-bottom: 2%;
+	padding-top: 1%;
+}
+.example p{
+	clear: both;
+	font-size: 1em;
+	color: #555555;
+	line-height: 1.8em;
+	text-align: justify;
+	font-weight: 300;
+	padding-top: 2%;
+}
+.example p span{
+	font-weight: bold;
+	text-align: center;
+}
+#morelinks{
+	text-align:center;
+}
+.example a{
+	/*display: block;*/
+	padding: 5px 20px;
+	margin: 10px;
+	text-decoration: none;
+	color: #fff;
+	background: #9c0000;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.example a:hover{
+	background: #cf0000;
+}
+.example img{
+	float: left;
+}
