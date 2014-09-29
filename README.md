@@ -51,6 +51,15 @@ Keep in touch
 
 All slices are extracted from the presentation at Code For Freedom hackathon 2014-09-28 in Gdansk, Poland. We won the 1st price, yeah!
 
+Keep in touch
+=============
+
+See the live demo at
+
+http://participation.aplikacje.mydevil.net/
+
+The code is hosted at https://github.com/tursics/Civicparticipation and maintanted by https://github.com/tursics/ and https://github.com/aplikacjespoleczne/ (we also on twitter https://twitter.com/tursics and facebook https://www.facebook.com/thomas.tursics https://www.facebook.com/weronika.grzejszczak)
+
 License
 =======
 
