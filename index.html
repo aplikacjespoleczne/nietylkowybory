@@ -1,5 +1,5 @@
 <!--A Design by W3layouts
-Author: W3layout
+Author of the layout: W3layout
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
@@ -7,11 +7,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Not Only Elections</title>
+<title>Nie Tylko Wybory</title>
 <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
 <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
 
-<link type='text/css' rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900'>
+<link type='text/css' rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700'>
 <link type='text/css' rel='stylesheet' href='http://fonts.googleapis.com/css?family=Architects+Daughter'>
 <link type='text/css' rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
 <link type='text/css' rel='stylesheet' href='css/style.css' media='all' />
@@ -22,794 +22,1064 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <link type='application/vnd.oftn.l10n+json' rel='localization' hreflang='pl' href='localizations/pl.json' />
 
 <script type='text/javascript' src='js/jquery.min.js'></script>
-<script type='text/javascript' src='js/jquery.easing.min.js'></script>	
+<script type='text/javascript' src='js/jquery.easing.min.js'></script>  
 <script type='text/javascript' src='js/jquery.mixitup.min.js'></script>
 <script type='text/javascript' src='js/jquery.magnific-popup.js'></script>
 <script type='text/javascript' src='js/l10n.js'></script>
 <script type='text/javascript' src='js/move-top.js'></script>
 <script type='text/javascript' src='js/easing.js'></script>
 <script type='text/javascript' src='js/script.js'></script>
+  
+<script src="js/modernizr.custom.js"></script>
+  
 </head>
 
 <body>
-	<!----start-header----------->
-	<div class="header_bg">
-		<div class="wrap">
-			<div class="header">
-				<div class="logo">
-					<a href="index.html"><img id="imgLogo" src="images/logo-en.png" alt="" /></a>
-				</div>
-				<div class="nav">
-					<ul>
-						<li><a href="#participation" id="navParticipation" class="scroll">Forms of participation</a></li>
-						<li><a href="#about" id="navAbout" class="scroll">About</a></li>
-						<li><a href="#contact" id="navContact" class="scroll">Contact</a></li>
-						<div class="clear"> </div>
-					</ul>
-				</div>
-				<div class="clear"> </div>
-			</div>
-		</div>
-	</div>
-	<!------end-header------------>
+    <!----start-header----------->
+  <div class="header_bg">
+    <div class="wrap">
+      <div class="header">
+        <div class="logo">
+          <a href="index.html"><img id="imgLogo" src="images/logo.png" alt="" /></a>
+        </div> <!--logo-->
+        <div class="nav">
+          <ul>
+            <li><a href="#participation" id="navParticipation" class="scroll">Formy partycypacji</a></li>
+            <li><a href="#about" id="navAbout" class="scroll">O projekcie</a></li>
+            <li><a href="#contact" id="navContact" class="scroll">Kontakt</a></li>
+            <div class="clear"> </div>
+          </ul>
+        </div> <!--nav-->
+        <div class="clear"> </div>
+      </div> <!-- header-->
+    </div> <!--wrap-->
+  </div> <!--header-->
+  <!------end-header------------>
 
-	<!-- start slider -->
-	<div class="slider_bg">
-		<div class="wrap">
-			<div class="da-slide">
-				<h2>Not only <span>elections</span></h2>
-				<p class="impact">Your impact on the place you live in should not end on voting every 4 years!</p>
-				<p><span class="teaser" style="font-size:1.1em;">Participate in decisions and actions together with the local government.<br>Discover forms of civic participation.<br><br><br></span></p>
-				<a href="#participation" class="scroll"><span class="da-img"> </span></a>
-			</div>
-		</div>
-	</div>
-	<!-----end-slider-------->
+  <!-- start slider -->
+  <div class="slider_bg">
+    <div class="wrap">
+      <div class="da-slide"> 
+        <h2><img src="images/work_in_progress.png"><br>
+         Nie tylko <span>wybory</span>        
+        </h2>
+        <p class="impact">Decyduj o miejscu, w którym żyjesz, częściej niż tylko poprzez wybory "raz na 4 lata" !</p>
+        <p><span class="teaser" style="font-size:1.1em;">Bierz udział w działaniach i decyzjach podejmowanych przez władze lokalne.<br>Odkryj różne formy partycypacji obywatelskiej w Łodzi.<br><br><br></span></p>
+        <a href="#participation" class="scroll"><span class="da-img"> </span></a>
+      </div>
+    </div>
+  </div>
+  <!-----end-slider-------->
 
-	<!--start participation------>
-	<div class="wrap" id="participation">
-		<div class="main">
-			<div class="gallery1">
+  <!--start participation------>
+  <div class="wrap" id="participation">
+    <div class="main">
+      <div class="gallery1">
+            <!-- start - wniosek - w skrócie -->
+            <div id="small-dialog1" class="mfp-hide">
+              <div class="pop_up">
+                <div id="image-and-title">
+                  <img src="images/icon1x.png" alt=""/>
+                  <h2>Wniosek</h2>
+                </div>
+                <p class="para">Trudność: <span> Dla początkujących</span><br>Inicjatywa: <span>Sam/-a inicjujesz</span> <br><br>Co to jest <span>WNIOSEK</span> ? 
+                  <br>To formalna prośba o podjęcie określonych działań. Wnioskować można właściwie o wszystko w granicach prawa.
+                  <br><br></p><p>Wniosek powinien zawierać adresata (do kogo się zwracamy z prośbą), dokładny opis sprawy (nieraz zawarty w dodatkowych załącznikach) pozwalający adresatowi ją zrozumieć i podjąć działania oraz autora (kto wnioskuje, bo anonimowych wniosków się nie rozpatruje). Każdy wniosek najlepiej złożyć na piśmie z datą i własnoręcznie podpisać.
+                <br><br></p><p>W określonych przypadkach wniosek składa się na specjalnym formularzu (papierowym lub elektornicznym) i tylko w określonym czasie, może być on też płatny.<br><br></p><p><br></p>
+                <!--Jeśli nie jesteś zadowolony z terminu lub efektu załatwienia sprawy, wnieś skargę.-->
+                <div id="morelinks">
+                 <a href="wniosek.html" target="_blank">wszystko o wniosku</a>
+                </div>
+              </div>
+            </div>        
+            <!-- end - wniosek - w skrócie -->
+        
+            <!-- start - skarga - w skrócie --> 
+            <div id="small-dialog2" class="mfp-hide">
+              <div class="pop_up">
+                <div id="image-and-title">
+                  <img src="images/icon2x.png" alt=""/>
+                  <h2>Skarga</h2>
+                </div>
+                <p class="para">Trudność: <span> Dla początkujących</span><br>Inicjatywa: <span>Sam/-a inicjujesz</span> <br><br>Co to jest <span>SKARGA</span> ? <br>X<br></p><p><br></p><p><br></p>
+                <div id="morelinks">
+                 <a href="skarga.html" target="_blank">wszystko o skardze</a>
+                </div>
+              </div>
+            </div>
+      <!-- end  - skarga - w skrócie -->
+      
+        
+      <!-- start - wniosek o kons - w skrócie -->
+      <div id="small-dialog3" class="mfp-hide">
+              <div class="pop_up">
+                <div id="image-and-title">
+                  <img src="images/icon3x.png" alt=""/>
+                  <h2>Wniosek o konsultacje społeczne</h2>
+                </div>
+                <p class="para">Trudność: <span> Dla zaawansowanych</span><br>Inicjatywa: <span>Sam/-a inicjujesz</span> <br><br>Co to jest <span>WNIOSEK O KONSULTACJE SPOŁECZNE</span> ? <br>XXX<br></p><p><br></p><p><br></p>
+                <div id="morelinks">
+                 <a href="wniosek-o-konsultacje.html" target="_blank">wszystko o wniosku o konsultacje</a>
+                </div>
+              </div>
+            </div>
+      <!-- end - wniosek o kons - w skrócie -->
+        
+      <!-- start - kons - ws -->
+            <div id="small-dialog4" class="mfp-hide">
+              <div class="pop_up">
+                <div id="image-and-title">
+                  <img src="images/icon4x.png" alt=""/>
+                  <h2>Konsultacje społeczne</h2>
+                </div>
+                <p class="para">Trudność: <span> Dla początkujących</span><br>Inicjatywa: <span>Wspierasz inicjatywę innych</span> <br><br>Co to są <span>KONSULTACJE SPOŁECZNE</span> ? <br>xxx<br></p><p><br></p><p><br></p>
+                <div id="morelinks">
+                 <a href="konsultacje-spoleczne.html" target="_blank">wszystko o konsultacjach</a>
+                </div>
+                <!--<div style="text-align:center;margin-top:1em;color:#555;font-weight:300;">Keep up to date. <input type="text" name="follow" placeholder="Enter Email address" /> or sign in <a href="#" style="padding:5px 10px;"><i class="fa fa-facebook"></i></a><a href="#" style="padding:5px 7px;"><i class="fa fa-twitter"></i></a></div>-->
+              </div>
+            </div>
+      <!-- end - kons - ws -->
+                     
+      <!-- start - petycja - p -->
+            <div id="small-dialog5" class="mfp-hide">
+              <div class="pop_up">
+                <div id="image-and-title">
+                  <img src="images/icon5x.png" alt=""/>
+                  <h2>Pisanie petycji</h2>
+                </div>
+                <p class="para">Trudność: <span> Dla zaawansowanych</span><br>Inicjatywa: <span>Sam/-a inicjujesz</span> <br><br>Co to jest <span>PETYCJA</span> ? <br>xxx</p><p><br></p><p><br></p>
+                <div id="morelinks">
+                 <a href="pisanie-petycji.html" target="_blank">wszystko o pisaniu petycji</a>
+                </div>
+                <!--<a href="abc.html">WIĘCEJ</a>  <a href="petition.example.html">PRZYKŁADY</a> <a href="http://isap.sejm.gov.pl/DetailsServlet?id=WDU19900510297">REGULACJE</a> <a href="http://www.petycje.pl/petycjeNowa.php">NAPISZ TERAZ!</a>-->
+              </div>
+            </div>
+      <!-- end -->
+        
+      <!--start-->
+            <div id="small-dialog6" class="mfp-hide">
+              <div class="pop_up">
+                <div id="image-and-title">
+                  <img src="images/icon6x.png" alt=""/>
+                  <h2>Podpisanie petycji</h2>
+                </div>
+                <p class="para">Trudność: <span> Dla początkujących</span><br>Inicjatywa: <span>Wspierasz inicjatywę innych</span> <br><br>Co to jest <span>PETYCJA</span> ? <br>xxx<br></p><p><br></p><p><br></p>
+                <div id="morelinks">
+                <a href="podpisanie-petycji.html" target="_blank">wszystko o podpisywaniu petycji</a>
+                </div>
+                  <!--<a href="petition.example.html">PRZYKŁADY</a> <a href="http://isap.sejm.gov.pl/DetailsServlet?id=WDU19900510297">PRZEPISY</a> <a href="petition.list.html">PODPISZ TERAZ!</a>-->
+                <!--<div style="text-align:center;margin-top:1em;color:#555;font-weight:300;">Keep up to date. <input type="text" name="follow" placeholder="Enter Email address" /> or sign in <a href="#" style="padding:5px 10px;"><i class="fa fa-facebook"></i></a><a href="#" style="padding:5px 7px;"><i class="fa fa-twitter"></i></a></div>-->
+              </div>
+            </div>
+            
+      
+      <!--start-->
+            <div id="small-dialog7" class="mfp-hide">
+              <div class="pop_up">
+                <div id="image-and-title">
+                  <img src="images/icon7x.png" alt=""/>
+                  <h2>Projekt do budżetu obywatelskiego</h2>
+                </div>
+                <p class="para">Trudność: <span> Dla zaawansowanych</span><br>Inicjatywa: <span>Sam/-a inicjujesz</span> <br><br>Co to jest <span>BUDŻET OBYWATELSKI</span> ? <br>xxx<br></p><p><br></p><p><br></p>
+                <div id="morelinks">
+                 <a href="projekt-do-budzetu.html" target="_blank">wszystko o projektach do budżetu obywatelskiego</a>
+                </div>
+              </div>
+            </div>
+                       
+      <!--start-->
+            <div id="small-dialog8" class="mfp-hide">
+              <div class="pop_up">
+                <div id="image-and-title">
+                  <img src="images/icon8x.png" alt=""/>
+                  <h2>Głosowane na budżet obywatelski</h2>
+                </div>
+                <p class="para">Trudność: <span> Dla początkujących</span><br>Inicjatywa: <span>Wspieranie inicjatywy innych</span> <br><br>Co to jest <span>BUDŻET OBYWATELSKI</span> ? <br>xxx<br></p><p><br></p><p><br></p>
+                <div id="morelinks">
+                 <a href="glosowanie-na-budzet.html" target="_blank">wszystko o głosowaniu na budżet obywatelski</a>
+                </div>
+                <!--<div style="text-align:center;margin-top:1em;color:#555;font-weight:300;">Keep up to date. <input type="text" name="follow" placeholder="Enter Email address" /> or sign in <a href="#" style="padding:5px 10px;"><i class="fa fa-facebook"></i></a><a href="#" style="padding:5px 7px;"><i class="fa fa-twitter"></i></a></div>-->
+              </div>
+            </div>     
+        
+      <!--start-->
+            <div id="small-dialog9" class="mfp-hide">
+              <div class="pop_up">
+                <div id="image-and-title">
+                  <img src="images/icon9x.png" alt=""/>
+                  <h2>Wniosek o dostęp do informacji publicznej</h2>
+                </div>
+                <p class="para">Trudność: <span> Dla zaawansowanych</span><br>Inicjatywa: <span>Sam/-a inicjujesz</span> <br><br>Co to jest <span>DOSTĘP DO INFORMACJI PUBLICZNEJ</span> ? <br>xxx<br></p><p><br></p><p><br></p>
+                <div id="morelinks">
+                 <a href="wniosek-o-dip.html" target="_blank">wszystko o wniosku o DIP</a>
+                </div>
+              </div>
+            </div>
+                   
+      <!--start-->
+            <div id="small-dialog10" class="mfp-hide">
+              <div class="pop_up">
+                <div id="image-and-title">
+                  <img src="images/icon10x.png" alt=""/>
+                  <h2>Inicjatywa lokalna</h2>
+                </div>
+                <p class="para">Trudność: <span> Dla zaawansowanych</span><br>Inicjatywa: <span>Sam/-a inicjujesz</span> <br><br>Co to jest <span>INICJATYWA LOKALNA</span> ? <br>xxx<br></p><p><br></p><p><br></p>
+                <div id="morelinks">
+                 <a href="inicjatywa-lokalna.html" target="_blank">wszystko o inicjatywie lokalnej</a>
+                </div>
+              </div>
+            </div>
+            
+      <!--start-->
+            <div id="small-dialog11" class="mfp-hide">
+              <div class="pop_up">
+                <div id="image-and-title">
+                  <img src="images/icon11x.png" alt=""/>
+                  <h2>Zwołanie referendum lokalnego</h2>
+                </div>
+                <p class="para">Trudność: <span> Chuck Norris</span><br>Inicjatywa: <span>Sam/-a inicjujesz</span> <br><br>Co to jest <span>Referendum lokalne</span> ? <br>xxx<br></p><p><br></p><p><br></p>
+                <div id="morelinks">
+                 <a href="zwolanie-referendum.html" target="_blank">wszystko o zwoływaniu referendum</a>
+                </div>
+              </div>
+            </div>
 
-						<div id="small-dialog1" class="mfp-hide">
-							<div class="pop_up">
-								<div id="image-and-title">
-									<img src="images/icon1.png" alt=""/>
-									<h2>File a request</h2>
-								</div>
-								<p class="para">Difficulty: <span> Extremely easy</span><br>Initiative: <span>Yes, your own</span> <br><br>What is <span>REQUEST</span> ? <br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></p><p><br></p><p><br></p>
-								<div id="morelinks">
-									<a href="abc.html">DETAILS</a> <a href="#">EXAMPLES</a> <a href="#">LEGAL</a> <a href="#">FILE IT NOW!</a>
-								</div>
-							</div>
-						</div>
-						<div id="small-dialog2" class="mfp-hide">
-							<div class="pop_up">
-								<div id="image-and-title">
-									<img src="images/icon2.png" alt=""/>
-									<h2>File a complaint</h2>
-								</div>
-								<p class="para">Difficulty: <span> Extremely easy</span><br>Initiative: <span>Yes, your own</span> <br><br>What is <span>COMPLAINT</span> ? <br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></p><p><br></p><p><br></p>
-								<div id="morelinks">
-									<a href="abc.html">DETAILS</a> <a href="#">EXAMPLES</a> <a href="#">LEGAL</a> <a href="#">FILE IT NOW!</a>
-								</div>
-							</div>
-						</div>
-						<div id="small-dialog3" class="mfp-hide">
-							<div class="pop_up">
-								<div id="image-and-title">
-									<img src="images/icon3.png" alt=""/>
-									<h2>File request for public consultation</h2>
-								</div>
-								<p class="para">Difficulty: <span> You can do it</span><br>Initiative: <span>Yes, your own</span> <br><br>What is <span>PUBLIC CONSULTATION</span> ? <br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></p><p><br></p><p><br></p>
-								<div id="morelinks">
-									<a href="abc.html">DETAILS</a> <a href="#">EXAMPLES</a> <a href="#">LEGAL</a> <a href="#">FILE IT NOW!</a>
-								</div>
-							</div>
-						</div>
-						<div id="small-dialog4" class="mfp-hide">
-							<div class="pop_up">
-								<div id="image-and-title">
-									<img src="images/icon4.png" alt=""/>
-									<h2>Respond to public consultation</h2>
-								</div>
-								<p class="para">Difficulty: <span> Extremely easy</span><br>Initiative: <span>Not yours, you support others' initiative</span> <br><br>What is <span>KONSULTACJE SPOŁECZNE</span> ? <br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></p><p><br></p><p><br></p>
-								<div id="morelinks">
-									<a href="abc.html">DETAILS</a> <a href="#">EXAMPLES</a> <a href="#">LEGAL</a> <a href="#">RESPOND NOW!</a>
-								</div>
-								<div style="text-align:center;margin-top:1em;color:#555;font-weight:300;">Keep up to date. <input type="text" name="follow" placeholder="Enter Email address" /> or sign in <a href="#" style="padding:5px 10px;"><i class="fa fa-facebook"></i></a><a href="#" style="padding:5px 7px;"><i class="fa fa-twitter"></i></a></div>
-							</div>
-						</div>
-						<div id="small-dialog5" class="mfp-hide">
-							<div class="pop_up">
-								<div id="image-and-title">
-									<img src="images/icon5.png" alt=""/>
-									<h2>Write petition</h2>
-								</div>
-								<p class="para">Difficulty: <span> You can do it</span><br>Initiative: <span>Yes, your own</span> <br><br>What is <span>PETITION</span> ? <br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></p><p><br></p><p><br></p>
-								<div id="morelinks">
-									<a href="petition.html">DETAILS</a> <a href="petition.example.html">EXAMPLES</a> <a href="http://isap.sejm.gov.pl/DetailsServlet?id=WDU19900510297">LEGAL</a> <a href="http://www.petycje.pl/petycjeNowa.php">WRITE IT NOW!</a>
-								</div>
-							</div>
-						</div>
-						<div id="small-dialog6" class="mfp-hide">
-							<div class="pop_up">
-								<div id="image-and-title">
-									<img src="images/icon6.png" alt=""/>
-									<h2>Sign a petition</h2>
-								</div>
-								<p class="para">Difficulty: <span> Extremely easy</span><br>Initiative: <span>Not yours, you support others' initiative</span> <br><br>What is <span>PETITION</span> ? <br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></p><p><br></p><p><br></p>
-								<div id="morelinks">
-									<a href="petition.html">DETAILS</a> <a href="petition.example.html">EXAMPLES</a> <a href="http://isap.sejm.gov.pl/DetailsServlet?id=WDU19900510297">LEGAL</a> <a href="petition.list.html">SIGN NOW!</a>
-								</div>
-								<div style="text-align:center;margin-top:1em;color:#555;font-weight:300;">Keep up to date. <input type="text" name="follow" placeholder="Enter Email address" /> or sign in <a href="#" style="padding:5px 10px;"><i class="fa fa-facebook"></i></a><a href="#" style="padding:5px 7px;"><i class="fa fa-twitter"></i></a></div>
-							</div>
-						</div>
-						<div id="small-dialog7" class="mfp-hide">
-							<div class="pop_up">
-								<div id="image-and-title">
-									<img src="images/icon7.png" alt=""/>
-									<h2>Submit project to civic budget</h2>
-								</div>
-								<p class="para">Difficulty: <span> You can do it</span><br>Initiative: <span>Yes, your own</span> <br><br>What is <span>CIVIC BUDGET</span> ? <br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></p><p><br></p><p><br></p>
-								<div id="morelinks">
-									<a href="abc.html">DETAILS</a> <a href="#">EXAMPLES</a> <a href="#">LEGAL</a> <a href="#">SUBMIT IT NOW!</a>
-								</div>
-							</div>
-						</div>
-						<div id="small-dialog8" class="mfp-hide">
-							<div class="pop_up">
-								<div id="image-and-title">
-									<img src="images/icon8.png" alt=""/>
-									<h2>Vote for project in civic budget</h2>
-								</div>
-								<p class="para">Difficulty: <span> Extremely easy</span><br>Initiative: <span>Not yours, you support others' initiative</span> <br><br>What is <span>BUDŻET OBYWATELSKI</span> ? <br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></p><p><br></p><p><br></p>
-								<div id="morelinks">
-									<a href="abc.html">DETAILS</a> <a href="#">EXAMPLES</a> <a href="#">LEGAL</a> <a href="#">VOTE NOW!</a>
-								</div>
-								<div style="text-align:center;margin-top:1em;color:#555;font-weight:300;">Keep up to date. <input type="text" name="follow" placeholder="Enter Email address" /> or sign in <a href="#" style="padding:5px 10px;"><i class="fa fa-facebook"></i></a><a href="#" style="padding:5px 7px;"><i class="fa fa-twitter"></i></a></div>
-							</div>
-						</div>
-						<div id="small-dialog9" class="mfp-hide">
-							<div class="pop_up">
-								<div id="image-and-title">
-									<img src="images/icon9.png" alt=""/>
-									<h2>File request for public information</h2>
-								</div>
-								<p class="para">Difficulty: <span> You can do it</span><br>Initiative: <span>Yes, your own</span> <br><br>What is <span>ACCESS TO PUBLIC INFORMATION</span> ? <br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></p><p><br></p><p><br></p>
-								<div id="morelinks">
-									<a href="abc.html">DETAILS</a> <a href="#">EXAMPLES</a> <a href="#">LEGAL</a> <a href="#">FILE IT NOW!</a>
-								</div>
-							</div>
-						</div>
-						<div id="small-dialog10" class="mfp-hide">
-							<div class="pop_up">
-								<div id="image-and-title">
-									<img src="images/icon10.png" alt=""/>
-									<h2>Organize a local initiative</h2>
-								</div>
-								<p class="para">Difficulty: <span> You can do it</span><br>Initiative: <span>Yes, your own</span> <br><br>What is <span>INICJATYWA LOKALNA</span> ? <br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></p><p><br></p><p><br></p>
-								<div id="morelinks">
-									<a href="abc.html">DETAILS</a> <a href="#">EXAMPLES</a> <a href="#">LEGAL</a> <a href="#">START IT NOW!</a>
-								</div>
-							</div>
-						</div>
-						<div id="small-dialog11" class="mfp-hide">
-							<div class="pop_up">
-								<div id="image-and-title">
-									<img src="images/icon11.png" alt=""/>
-									<h2>Call local referendum</h2>
-								</div>
-								<p class="para">Difficulty: <span> Chuck Norris</span><br>Initiative: <span>Yes, your own</span> <br><br>What is <span>LOCAL REFERENDUM</span> ? <br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></p><p><br></p><p><br></p>
-								<div id="morelinks">
-									<a href="abc.html">DETAILS</a> <a href="#">EXAMPLES</a> <a href="#">LEGAL</a> <a href="#">CALL FOR IT NOW!</a>
-								</div>
-							</div>
-						</div>
-						<div id="small-dialog12" class="mfp-hide">
-							<div class="pop_up">
-								<div id="image-and-title">
-									<img src="images/icon12.png" alt=""/>
-									<h2>Vote in local referendum</h2>
-								</div>
-								<p class="para">Difficulty: <span> Extremely easy</span><br>Initiative: <span> Not yours, you support others' initiative</span> <br><br>What is <span>LOCAL REFERENDUM</span> ? <br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></p><p><br></p><p><br></p>
-								<div id="morelinks">
-									<a href="abc.html">DETAILS</a> <a href="#">EXAMPLES</a> <a href="#">LEGAL</a> <a href="#">VOTE NOW!</a>
-								</div>
-								<div style="text-align:center;margin-top:1em;color:#555;font-weight:300;">Keep up to date. <input type="text" name="follow" placeholder="Enter Email address" /> or sign in <a href="#" style="padding:5px 10px;"><i class="fa fa-facebook"></i></a><a href="#" style="padding:5px 7px;"><i class="fa fa-twitter"></i></a></div>
-							</div>
-						</div>	
-						<div id="small-dialog13" class="mfp-hide">
-							<div class="pop_up">
-								<div id="image-and-title">
-									<img src="images/icon13.png" alt=""/>
-									<h2>Submit civic initiative to adopt resolutions</h2>
-								</div>
-								<p class="para">Difficulty: <span> Chuck Norris</span><br>Initiative: <span>Yes, your own</span> <br><br>What is <span>CIVIC INITIATIVE TO ADOPT RESOLUTIONS</span> ? <br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></p><p><br></p><p><br></p>
-								<div id="morelinks">
-									<a href="abc.html">DETAILS</a> <a href="#">EXAMPLES</a> <a href="#">LEGAL</a> <a href="#">INITIATE NOW!</a>
-								</div>
-							</div>
-						</div>
-						<div id="small-dialog14" class="mfp-hide">
-							<div class="pop_up">
-								<div id="image-and-title">
-									<img src="images/icon14.png" alt=""/>
-									<h2>Sign civic initiative to adopt resolutions</h2>
-								</div>
-								<p class="para">Difficulty: <span> Extremely easy</span><br>Initiative: <span>Not yours, you support others' initiative</span> <br><br>What is <span>CIVIC INITIATIVE TO ADOPT RESOLUTIONS</span> ? <br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></p><p><br></p><p><br></p>
-								<div id="morelinks">
-									<a href="abc.html">DETAILS</a> <a href="#">EXAMPLES</a> <a href="#">LEGAL</a> <a href="#">SIGN NOW!</a>
-								</div>
-								<div style="text-align:center;margin-top:1em;color:#555;font-weight:300;">Keep up to date. <input type="text" name="follow" placeholder="Enter Email address" /> or sign in <a href="#" style="padding:5px 10px;"><i class="fa fa-facebook"></i></a><a href="#" style="padding:5px 7px;"><i class="fa fa-twitter"></i></a></div>
-							</div>
-						</div>
-						<div id="small-dialog15" class="mfp-hide">
-							<div class="pop_up">
-								<div id="image-and-title">
-									<img src="images/icon15.png" alt=""/>
-									<h2>Run for local office</h2>
-								</div>
-								<p class="para">Difficulty: <span> Chuck Norris</span><br>Initiative: <span>Yes, your own</span> <br><br>What is <span>LOCAL ELECTIONS</span> ? <br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></p><p><br></p><p><br></p>
-								<div id="morelinks">
-									<a href="abc.html">DETAILS</a> <a href="#">EXAMPLES</a> <a href="#">LEGAL</a> <a href="#">RUN NOW!</a>
-								</div>
-							</div>
-						</div>
-						<div id="small-dialog16" class="mfp-hide">
-							<div class="pop_up">
-								<div id="image-and-title">
-									<img src="images/icon16.png" alt=""/>
-									<h2>Vote for local official</h2>
-								</div>
-								<p class="para">Difficulty: <span> Extremely easy</span><br>Initiative: <span>Not yours, you support others' initiative</span> <br><br>What is <span>LOCAL ELECTIONS</span> ? <br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></p><p><br></p><p><br></p>
-								<div id="morelinks">
-									<a href="abc.html">DETAILS</a> <a href="#">EXAMPLES</a> <a href="#">LEGAL</a> <a href="#">VOTE NOW!</a>
-								</div>
-								<div style="text-align:center;margin-top:1em;color:#555;font-weight:300;">Keep up to date. <input type="text" name="follow" placeholder="Enter Email address" /> or sign in <a href="#" style="padding:5px 10px;"><i class="fa fa-facebook"></i></a><a href="#" style="padding:5px 7px;"><i class="fa fa-twitter"></i></a></div>
-							</div>
-						</div>
-						<div id="small-dialog17" class="mfp-hide">
-							<div class="pop_up">
-								<div id="image-and-title">
-									<img src="images/icon17.png" alt=""/>
-									<h2>Organize manifestation</h2>
-								</div>
-								<p class="para">Difficulty: <span> You can do it</span><br>Initiative: <span>Yes, your own</span> <br><br>What is <span>MANIFESTATION</span> ? <br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></p><p><br></p><p><br></p>
-								<div id="morelinks">
-									<a href="abc.html">DETAILS</a> <a href="#">EXAMPLES</a> <a href="#">LEGAL</a> <a href="#">ORGANIZE NOW!</a>
-								</div>
-							</div>
-						</div>
-						<div id="small-dialog18" class="mfp-hide">
-							<div class="pop_up">
-								<div id="image-and-title">
-									<img src="images/icon18.png" alt=""/>
-									<h2>Manifest</h2>
-								</div>
-								<p class="para">Difficulty: <span> Extremely easy</span><br>Initiative: <span>Yes, your own</span> <br><br>What is <span>MANIFESTATION</span> ? <br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></p><p><br></p><p><br></p>
-								<div id="morelinks">
-									<a href="abc.html">DETAILS</a> <a href="#">EXAMPLES</a> <a href="#">LEGAL</a> <a href="#">MANIFEST NOW!</a>
-								</div>
-							</div>
-						</div>	
-					<!--end-mfp -->	
+               
+      <!--start-->
+            <div id="small-dialog12" class="mfp-hide">
+              <div class="pop_up">
+                <div id="image-and-title">
+                  <img src="images/icon12x.png" alt=""/>
+                  <h2>Głosowanie w referendum lokalnym</h2>
+                </div>
+                <p class="para">Trudność: <span> Dla początkujących</span><br>Inicjatywa: <span> Wsparcie inicjatywy innych</span> <br><br>Co to jest <span>REFERENDUM LOKALNE</span> ? <br> xxx<br></p><p><br></p><p><br></p>
+                <div id="morelinks">
+                 <a href="glosowanie-w-referendum.html" target="_blank">wszystko o głosowaniu w referendum</a>
+                </div>
+                <!--<div style="text-align:center;margin-top:1em;color:#555;font-weight:300;">Keep up to date. <input type="text" name="follow" placeholder="Enter Email address" /> or sign in <a href="#" style="padding:5px 10px;"><i class="fa fa-facebook"></i></a><a href="#" style="padding:5px 7px;"><i class="fa fa-twitter"></i></a></div>-->
+              </div>
+            </div>
+          
+      <!--start-->
+            <div id="small-dialog13" class="mfp-hide">
+              <div class="pop_up">
+                <div id="image-and-title">
+                  <img src="images/icon13x.png" alt=""/>
+                  <h2>Napisanie obywatelskiej inicjatywy uchwałodawczej</h2>
+                </div>
+                <p class="para">Trudność: <span> Chuck Norris</span><br>Inicjatywa: <span>Sam/-a inicjujesz</span> <br><br>Co to jest <span>OBYWATELSKA INICJATYWA UCHWAŁODAWCZA</span> ? <br>xxx<br></p><p><br></p><p><br></p>
+                <div id="morelinks">
+                 <a href="pisanie-inicjatywy-uchwalodawczej.html" target="_blank">wszystko pisaniu inicjatywy uchwałodawczej</a>
+                </div>
+              </div>
+            </div>
+      
+        
+      <!--start-->
+            <div id="small-dialog14" class="mfp-hide">
+              <div class="pop_up">
+                <div id="image-and-title">
+                  <img src="images/icon14x.png" alt=""/>
+                  <h2>Poparcie obywatelskiej inicjatywy uchwałodawczej</h2>
+                </div>
+                <p class="para">Trudność: <span> Dla początkujących</span><br>Inicjatywa: <span>Wsparcie inicjatywy innych</span> <br><br>Co to jest <span>OBYWATELSKA INICJATYWA UCHWAŁODAWCZA</span> ? <br>xxx<br></p><p><br></p><p><br></p>
+                <div id="morelinks">
+                 <a href="podpisanie-inicjatywy-uchwalodawczej.html" target="_blank">wszystko o popieraniu inicjatywy uchwałodawczej</a>
+                </div>
+                <!--<div style="text-align:center;margin-top:1em;color:#555;font-weight:300;">Keep up to date. <input type="text" name="follow" placeholder="Enter Email address" /> or sign in <a href="#" style="padding:5px 10px;"><i class="fa fa-facebook"></i></a><a href="#" style="padding:5px 7px;"><i class="fa fa-twitter"></i></a></div>-->
+              </div>
+            </div>
+      
+  
+      <!--start-->
+            <div id="small-dialog15" class="mfp-hide">
+              <div class="pop_up">
+                <div id="image-and-title">
+                  <img src="images/icon15x.png" alt=""/>
+                  <h2>Kandydowanie w wyborach samorządowych</h2>
+                </div>
+                <p class="para">Trudność: <span> Chuck Norris</span><br>Inicjatywa: <span>Sam/-a inicjujesz</span> <br><br>Co to są <span>WYBORY SAMORZĄDOWE</span> ? <br>xxx<br></p><p><br></p><p><br></p>
+                <div id="morelinks">
+                 <a href="kandydowanie-w-wyborach.html" target="_blank">wszystko o kandydowaniu w wyborach</a>
+                </div>
+              </div>
+            </div>
 
-			<!---start-content----->
-			<div class="gallery">
-				<div class="clear"> </div>
-				<div class="container">
-					<h2>Civic participation forms</h2>
-					<p>enabled by local and national laws in Lodz</p>
-					<ul id="filters" class="clearfix">
-						<li class="searchAll"><span class="filter all active" data-filter="all">all</span></li>
-						<div style="float:left;">
-						<li class="searchLeft"><span class="filter easy" data-filter="easy">extremely easy</span></li>
-						<li class="searchMiddle"><span class="filter doit" data-filter="doit">you can do it</span></li>
-						<li class="searchRight"><span class="filter chucknorris" data-filter="chucknorris">Chuck Norris</span></li>
-						</div>
-						<div style="float:left;">
-						<li class="searchLeft"><span class="filter starters" data-filter="starters">For starters</span></li>
-						<li class="searchRight"><span class="filter urge" data-filter="urge">To urge</span></li>						
-						</div>
-						<div style="float:left;">
-						<li class="searchLeft"><span class="filter initiative" data-filter="initiative">Own initiative</span></li>
-						<li class="searchRight"><span class="filter support" data-filter="support">Support others</span></li>
-						</div>
-						<!-- <div style="float:left;">
-						<li class="searchLeft"><span class="filter citypart" data-filter="citypart">Part of the city</span></li>
-						<li class="searchRight"><span class="filter city" data-filter="city">Whole city</span></li>
-						</div> -->
-						<div style="float:left;">
-						<li class="searchLeft"><span class="filter action" data-filter="action">Action</span></li>
-						<li class="searchRight"><span class="filter collection" data-filter="collection">Info collection</span></li>
-						</div>
-						<div style="float:left;">
-						<li class="searchLeft"><span class="filter contribute" data-filter="contribute">With contribution</span></li>
-						<li class="searchRight"><span class="filter passive" data-filter="passive">Without contribution</span></li>
-						</div>
-						<div style="float:left;">
-						<li class="searchLeft"><span class="filter oneyear" data-filter="oneyear">Up to 1 year</span></li>
-						<li class="searchRight"><span class="filter someyears" data-filter="someyears">More than 1 year</span></li>
-						</div>
-						<div style="float:left;">
-						<li class="searchLeft"><span class="filter adults" data-filter="adults">Adults only</span></li>
-						<li class="searchRight"><span class="filter youth" data-filter="youth">Youth</span></li>
-						</div>
-						<div style="float:left;">
-						<li class="searchLeft"><span class="filter formal" data-filter="formal">Formal</span></li>
-						<li class="searchRight"><span class="filter informal" data-filter="informal">Informal</span></li>
-						</div>
-					</ul>
-					<div class="clear"> </div>
-			<div id="portfoliolist">
-			<div class="portfolio easy starters initiative citypart city action passive oneyear someyears adults formal informal" data-cat="logo">
-				<div class="portfolio-wrapper">				
-					<a class="popup-with-zoom-anim" href="#small-dialog1">
-						<ul class="ch-grid">
-							<li>
-								<div class="ch-item ch-img-1">
-									<div class="ch-info">
-										<img src="images/zoom-white.png"/>
-										<h3>request</h3>
-										<p><a href="abc.html">file it now</a></p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</a>
-				</div>
-			</div>			
-			<div class="portfolio easy urge initiative citypart city action passive oneyear someyears adults informal formal" data-cat="app">
-				<div class="portfolio-wrapper">			
-					<a class="popup-with-zoom-anim" href="#small-dialog2">
-						<ul class="ch-grid">
-							<li>
-								<div class="ch-item ch-img-2">
-									<div class="ch-info">
-										<img src="images/zoom-white.png"/>
-										<h3>complaint</h3>
-										<p><a href="#">file it now</a></p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</a>
-				</div>
-			</div>	
-			<div class="hide">	
-			<div class="portfolio doit starters urge initiative citypart city collection passive oneyear someyears adults formal" data-cat="web">
-				<div class="portfolio-wrapper">						
-					<a class="popup-with-zoom-anim" href="#small-dialog3">
-						<ul class="ch-grid">
-							<li>
-								<div class="ch-item ch-img-3">
-									<div class="ch-info">
-										<img src="images/zoom-white.png"/>
-										<h3>request public consultation</h3>
-										<p><a href="#">request now</a></p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</a>
-				</div>
-			</div>	
-			</div>
-			
-			<div class="portfolio easy starters urge support citypart city collection passive oneyear someyears adults formal" data-cat="card">
-				<div class="portfolio-wrapper">			
-					<a class="popup-with-zoom-anim" href="#small-dialog4">
-						<ul class="ch-grid">
-							<li>
-								<div class="ch-item ch-img-4">
-									<div class="ch-info">
-										<img src="images/zoom-white.png"/>
-										<h3>respond to<br>public <br>consultation</h3>
-										<p><a href="#">respond now</a></p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</a>
-				</div>
-			</div>	
-			<div class="hide">	
-			<div class="portfolio doit urge initiative citypart city action passive oneyear someyears adults informal" data-cat="app">
-				<div class="portfolio-wrapper">
-					<a class="popup-with-zoom-anim" href="#small-dialog5">
-						<ul class="ch-grid">
-							<li>
-								<div class="ch-item ch-img-5">
-									<div class="ch-info">
-										<img src="images/zoom-white.png"/>
-										<h3>petition</h3>
-										<p><a href="http://www.petycje.pl/petycjeNowa.php">write now</a></p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</a>
-				</div>
-			</div>	
-			</div>	
-			<div class="hide">
-			<div class="portfolio easy urge support citypart city action passive oneyear someyears adults informal" data-cat="card">
-				<div class="portfolio-wrapper">			
-					<a class="popup-with-zoom-anim" href="#small-dialog6">
-						<ul class="ch-grid">
-							<li>
-								<div class="ch-item ch-img-6">
-									<div class="ch-info">
-										<img src="images/zoom-white.png"/>
-										<h3>Sign<br>petition</h3>
-										<p><a href="petition.list.html">Sign now</a></p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</a>
-				</div>
-			</div>	
-			</div>
-			<div>
-			<div class="portfolio doit starters initiative citypart city action passive oneyear adults formal" data-cat="card">
-				<div class="portfolio-wrapper">			
-					<a class="popup-with-zoom-anim" href="#small-dialog7">
-						<ul class="ch-grid">
-							<li>
-								<div class="ch-item ch-img-7">
-									<div class="ch-info">
-										<img src="images/zoom-white.png"/>
-										<h3>Submit project<br>to civic budget</h3>
-										<p><a href="#">Submit now</a></p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</a>
-				</div>
-			</div>	
-			</div>
-			<div>
-			<div class="portfolio easy  starters support citypart city action passive oneyear adults formal" data-cat="logo" id="hide">
-				<div class="portfolio-wrapper">			
-					<a class="popup-with-zoom-anim" href="#small-dialog8">
-						<ul class="ch-grid">
-							<li>
-								<div class="ch-item ch-img-8">
-									<div class="ch-info">
-										<img src="images/zoom-white.png"/>
-										<h3>Vote for project<br>in civic budget</h3>
-										<p><a href="#">vote now</a></p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</a>
-				</div>
-			</div>
-			<div class="portfolio doit starters initiative collection passive city citypart oneyear someyears adults formal" data-cat="logo">
-				<div class="portfolio-wrapper">				
-					<a class="popup-with-zoom-anim" href="#small-dialog9">
-						<ul class="ch-grid">
-							<li>
-								<div class="ch-item ch-img-9">
-									<div class="ch-info">
-										<img src="images/zoom-white.png"/>
-										<h3>request access to public information</h3>
-										<p><a href="abc.html">request now</a></p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</a>
-				</div>
-			</div>
-			<div class="portfolio doit starters initiative citypart city action contribute oneyear adults formal" data-cat="logo">
-				<div class="portfolio-wrapper">				
-					<a class="popup-with-zoom-anim" href="#small-dialog10">
-						<ul class="ch-grid">
-							<li>
-								<div class="ch-item ch-img-10">
-									<div class="ch-info">
-										<img src="images/zoom-white.png"/>
-										<h3>local initiative</h3>
-										<p><a href="abc.html">start it now</a></p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</a>
-				</div>
-			</div>
-			<div class="portfolio chucknorris urge initiative city action passive oneyear someyears adults formal" data-cat="logo">
-				<div class="portfolio-wrapper">				
-					<a class="popup-with-zoom-anim" href="#small-dialog11">
-						<ul class="ch-grid">
-							<li>
-								<div class="ch-item ch-img-11">
-									<div class="ch-info">
-										<img src="images/zoom-white.png"/>
-										<h3>local referendum</h3>
-										<p><a href="abc.html">call it now</a></p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</a>
-				</div>
-			</div>
-			<div class="portfolio easy starters urge support city action passive oneyear someyears adults formal" data-cat="logo">
-				<div class="portfolio-wrapper">				
-					<a class="popup-with-zoom-anim" href="#small-dialog12">
-						<ul class="ch-grid">
-							<li>
-								<div class="ch-item ch-img-12">
-									<div class="ch-info">
-										<img src="images/zoom-white.png"/>
-										<h3>vote in local referendum</h3>
-										<p><a href="abc.html">vote now</a></p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</a>
-				</div>
-			</div>
-			<div class="portfolio chucknorris starters initiative city action passive oneyear someyears adults formal" data-cat="logo">
-				<div class="portfolio-wrapper">				
-					<a class="popup-with-zoom-anim" href="#small-dialog13">
-						<ul class="ch-grid">
-							<li>
-								<div class="ch-item ch-img-13">
-									<div class="ch-info">
-										<img src="images/zoom-white.png"/>
-										<h3>Initiative to adopt resolutions</h3>
-										<p><a href="abc.html">initiate now</a></p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</a>
-				</div>
-			</div>
-			<div class="portfolio doit starters support city action passive someyears oneyear adults formal" data-cat="logo">
-				<div class="portfolio-wrapper">				
-					<a class="popup-with-zoom-anim" href="#small-dialog14">
-						<ul class="ch-grid">
-							<li>
-								<div class="ch-item ch-img-14">
-									<div class="ch-info">
-										<img src="images/zoom-white.png"/>
-										<h3>Sign initiative <br>to adopt resolutions</h3>
-										<p><a href="abc.html">sign now</a></p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</a>
-				</div>
-			</div>
-			<div class="portfolio chucknorris starters initiative city action contribute someyears adults formal" data-cat="logo">
-				<div class="portfolio-wrapper">				
-					<a class="popup-with-zoom-anim" href="#small-dialog15">
-						<ul class="ch-grid">
-							<li>
-								<div class="ch-item ch-img-15">
-									<div class="ch-info">
-										<img src="images/zoom-white.png"/>
-										<h3>Run for <br> local office</h3>
-										<p><a href="abc.html">Run now</a></p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</a>
-				</div>
-			</div>
-			<div class="portfolio easy starters support city action passive someyears adults formlanie" data-cat="logo">
-				<div class="portfolio-wrapper">				
-					<a class="popup-with-zoom-anim" href="#small-dialog16">
-						<ul class="ch-grid">
-							<li>
-								<div class="ch-item ch-img-16">
-									<div class="ch-info">
-										<img src="images/zoom-white.png"/>
-										<h3>vote for local officials</h3>
-										<p><a href="abc.html">vote now</a></p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</a>
-				</div>
-			</div>
-			<div class="portfolio doit citypart city action oneyear someyears adults passive formal informal" data-cat="logo">
-				<div class="portfolio-wrapper">				
-					<a class="popup-with-zoom-anim" href="#small-dialog17">
-						<ul class="ch-grid">
-							<li>
-								<div class="ch-item ch-img-17">
-									<div class="ch-info">
-										<img src="images/zoom-white.png"/>
-										<h3>organize manifestation</h3>
-										<p><a href="abc.html">organize now</a></p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</a>
-				</div>
-			</div>
-			<div class="portfolio doit citypart city action oneyear someyears adults passive informal" data-cat="logo">
-				<div class="portfolio-wrapper">				
-					<a class="popup-with-zoom-anim" href="#small-dialog18">
-						<ul class="ch-grid">
-							<li>
-								<div class="ch-item ch-img-18">
-									<div class="ch-info">
-										<img src="images/zoom-white.png"/>
-										<h3>manifest</h3>
-										<p><a href="abc.html">manifest now</a></p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</a>
-				</div>
-			</div>	
-		</div>
-		</div>		
-	</div><!-- container -->
-	<script type="text/javascript" src="js/fliplightbox.min.js"></script>
-	<script type="text/javascript">$('body').flipLightBox()</script>
-	<div class="clear"> </div>
-	</div>
-	</div>
-	</div>
-</div>
+               
+      <!--start-->
+            <div id="small-dialog16" class="mfp-hide">
+              <div class="pop_up">
+                <div id="image-and-title">
+                  <img src="images/icon16x.png" alt=""/>
+                  <h2>Głosowanie w wyborach samorządowych</h2>
+                </div>
+                <p class="para">Trudność: <span> Dla początkujących</span><br>Inicjatywa: <span>Wspieranie inicjatywy innych</span> <br><br>Co to są <span>WYBORY SAMORZĄDOWE</span> ? <br>xxx<br></p><p><br></p><p><br></p>
+                <div id="morelinks">
+                 <a href="glosowanie-w-wyborach.html" target="_blank">wszystko o głosowaniu w wyborach</a>
+                </div>
+                <!--<div style="text-align:center;margin-top:1em;color:#555;font-weight:300;">Keep up to date. <input type="text" name="follow" placeholder="Enter Email address" /> or sign in <a href="#" style="padding:5px 10px;"><i class="fa fa-facebook"></i></a><a href="#" style="padding:5px 7px;"><i class="fa fa-twitter"></i></a></div>-->
+              </div>
+            </div>
+      
+               
+      <!--start-->
+            <div id="small-dialog17" class="mfp-hide">
+              <div class="pop_up">
+                <div id="image-and-title">
+                  <img src="images/icon17x.png" alt=""/>
+                  <h2>Zwoływanie manifestację</h2>
+                </div>
+                <p class="para">Trudność: <span> Dla zaawansowanych</span><br>Inicjatywa: <span>Sam/-a inicjujesz</span> <br><br>Co to jest <span>MANIFESTACJA</span> ? <br>xxx<br></p><p><br></p><p><br></p>
+                <div id="morelinks">
+                 <a href="zwolanie-manifestacji.html" target="_blank">wszystko o zwoływaniu manifestacji</a>
+                </div>
+              </div>
+            </div>
+      
+
+               
+      <!--start-->
+            <div id="small-dialog18" class="mfp-hide">
+              <div class="pop_up">
+                <div id="image-and-title">
+                  <img src="images/icon18x.png" alt=""/>
+                  <h2>Udział w manifestacji</h2>
+                </div>
+                <p class="para">Trudność: <span> Dla początkujących</span><br>Inicjatywa: <span>Wspierasz inicjatywę innych</span> <br><br>Co to jest <span>MANIFESTACJA</span> ? <br>xxx<br></p><p><br></p><p><br></p>
+                <div id="morelinks">
+                 <a href="udzial-w-manifestacji.html" target="_blank">wszystko o udziale w manifestacji</a>
+                </div>
+              </div>
+            </div>
+              
+      <!--start-->
+            <div id="small-dialog19" class="mfp-hide">
+              <div class="pop_up">
+                <div id="image-and-title">
+                  <img src="images/icon19x.png" alt=""/>
+                  <h2>Zrealizuj projekt grantowy</h2>
+                </div>
+                <p class="para">Trudność: <span> Dla zaawansowanych</span><br>Inicjatywa: <span>Sam/-a inicjujesz</span> <br><br>Co to jest <span>PROJEKT GRANTOWY</span> ? <br>xxx<br></p><p><br></p><p><br></p>
+                <div id="morelinks">
+                 <a href="projekt-grantowy.html" target="_blank">wszystko o projektach grantowych</a>
+                </div>
+              </div>
+            </div>
+      
+        
+      <!--start-->
+            <div id="small-dialog20" class="mfp-hide">
+              <div class="pop_up">
+                <div id="image-and-title">
+                  <img src="images/icon20x.png" alt=""/>
+                  <h2>Wolontariat</h2>
+                </div>
+                <p class="para">Trudność: <span> Dla początkujących</span><br>Inicjatywa: <span>Sam/-a inicjujesz</span> <br><br>Co to jest <span>WOLONTARIAT</span> ? <br>xxx<br></p><p><br></p><p><br></p>
+                 <div id="morelinks">
+                 <a href="wolontariat.html" target="_blank">wszystko o wolontariacie</a>
+                </div>
+              </div>
+            </div>
+      
+                
+      <!--start-->
+            <div id="small-dialog21" class="mfp-hide">
+              <div class="pop_up">
+                <div id="image-and-title">
+                  <img src="images/icon21x.png" alt=""/>
+                  <h2>Zorganizuj publiczną zbiórkę pieniężną</h2>
+                </div>
+                <p class="para">Trudność: <span> Dla zaawansowanych</span><br>Inicjatywa: <span>Sam/-a inicjujesz</span> <br><br>Co to jest <span>ZBIÓRKA PUBLICZNA</span>? <br>xxx<br></p><p><br></p><p><br></p>
+                <div id="morelinks">
+                 <a href="organizacja-zbiorki-publicznej.html" target="_blank">wszystko o organizacji zbiórki publicznej</a>
+                </div>
+              </div>
+            </div>
+      
+                        
+      <!--start-->
+            <div id="small-dialog22" class="mfp-hide">
+              <div class="pop_up">
+                <div id="image-and-title">
+                  <img src="images/icon22x.png" alt=""/>
+                  <h2>Wsparcie zbiórki publicznej</h2>
+                </div>
+                <p class="para">Trudność: <span>Dla początkujących</span><br>Inicjatywa: <span>Wspierasz inicjatywę innych</span> <br><br>Co to jest <span>ZBIÓRKA PUBLICZNA</span> ? <br>xxx<br></p><p><br></p><p><br></p>
+                <div id="morelinks">
+                 <a href="wsparcie-zbiorki-publicznej.html" target="_blank">wszystko o wspieraniu zbiórek publicznych</a>
+                </div>
+              </div>
+            </div>
+    
+        <div class="clear"> </div>
+        <div class="container">
+          <h2>Formy partycypacji obywatelskiej</h2>
+          <p>jakie umożliwia prawo w Łodzi</p>
+          
+          <ul id="filters" class="clearfix">
+            <li class="searchAll"><span class="filter all active" data-filter="all">wszystkie</span></li>
+            <div style="float:left;">
+            <li class="searchLeft"><span class="filter easy" data-filter="easy">dla początkujących</span></li>
+            <li class="searchMiddle"><span class="filter doit" data-filter="doit">dla zaawansowanych</span></li>
+            <li class="searchRight"><span class="filter chucknorris" data-filter="chucknorris">Chuck Norris</span></li>
+            </div>
+            <div style="float:left;">
+            <li class="searchLeft"><span class="filter initiative" data-filter="initiative">sam/-a inicjuję</span></li>
+            <li class="searchRight"><span class="filter support" data-filter="support">wspieram innych</span></li>
+            </div>
+            <div style="float:left;">
+            <li class="searchLeft"><span class="filter formal" data-filter="formal">formalne</span></li>
+            <li class="searchRight"><span class="filter informal" data-filter="informal">nieformalne</span></li>
+            </div>
+            <div style="float:left;">
+            <li class="searchLeft"><span class="filter contribute" data-filter="contribute">chcę działać</span></li>
+            <li class="searchRight"><span class="filter passive" data-filter="passive">chcę, żeby inni działali</span></li>
+            </div>            
+            <div style="float:left;">
+            <li class="searchLeft"><span class="filter adults" data-filter="adults">Tylko dla dorosłych</span></li>
+            <li class="searchRight"><span class="filter youth" data-filter="youth">Także dla młodzieży</span></li>
+            </div>
+            <div style="float:left;">
+            <li class="searchLeft"><span class="filter alone" data-filter="alone">Działam sam</span></li>
+            <li class="searchMiddle"><span class="filter withpeople" data-filter="withpeople">Poprą mnie ludzie</span></li>
+            <li class="searchRight"><span class="filter withmasses" data-filter="withmasses">Poprą mnie tłumy</span></li>
+            <div style="float:left;">
+            <li class="searchLeft"><span class="filter participation" data-filter="participation">Partycypacja</span></li>
+            <li class="searchRight"><span class="filter other" data-filter="other ">Inne pożyteczne aktywności</span></li>
+            </div>
+              <!--
+            <div style="float:left;">
+            <li class="searchLeft"><span class="filter oneyear" data-filter="oneyear">Do 1 roku</span></li>
+            <li class="searchRight"><span class="filter someyears" data-filter="someyears">Powyżej 1 roku</span></li>
+            </div>
+            -->
+              <!--
+            <div style="float:left;">
+            <li class="searchLeft"><span class="filter starters" data-filter="starters">nowa akcja</span></li>
+            <li class="searchRight"><span class="filter urge" data-filter="urge">ponaglenie</span></li>            
+            </div>
+            -->
+            <!--
+            <div style="float:left;">            
+            <li class="searchLeft"><span class="filter citypart" data-filter="citypart">Część miasta</span></li>
+            <li class="searchRight"><span class="filter city" data-filter="city">Całe miasto</span></li>
+            </div>
+            -->
+            <!--
+            <div style="float:left;">
+            <li class="searchLeft"><span class="filter action" data-filter="action">Działanie</span></li>
+            <li class="searchRight"><span class="filter collection" data-filter="collection">Zbieranie info</span></li>
+            </div>
+            -->
+      </div>
+          </ul>  
+          
+          <div class="clear"> </div>
+      <div id="portfoliolist">
+      <div class="portfolio participation easy initiative formal informal starters passive adults alone" data-cat="logo">
+        <div class="portfolio-wrapper">        
+          <a class="popup-with-zoom-anim" href="#small-dialog1">
+            <ul class="ch-grid">
+              <li>
+                <div class="ch-item ch-img-1">
+                  <div class="ch-info">
+                    <img src="images/zoom-white.png"/>
+                     <!---<h3>wniosek</h3>----->
+                    <p><a href="wniosek.html" target="_blank">o wniosku</a></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </a>
+        </div>
+      </div>      
+      <div class="portfolio participation easy initiative formal informal urge passive adults alone" data-cat="app">
+        <div class="portfolio-wrapper">      
+          <a class="popup-with-zoom-anim" href="#small-dialog2">
+            <ul class="ch-grid">
+              <li>
+                <div class="ch-item ch-img-2">
+                  <div class="ch-info">
+                    <img src="images/zoom-white.png"/>
+                    <!----<h3>skarga</h3>----------->
+                    <p><a href="skarga.html" target="_blank">o skardze</a></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </a>
+        </div>
+      </div>  
+      <div class="hide">  
+      <div class="portfolio participation doit initiative formal starters passive adults alone" data-cat="web">
+        <div class="portfolio-wrapper">            
+          <a class="popup-with-zoom-anim" href="#small-dialog3">
+            <ul class="ch-grid">
+              <li>
+                <div class="ch-item ch-img-3">
+                  <div class="ch-info">
+                    <img src="images/zoom-white.png"/>
+                    <!----<h3>wniosek o konsultacje społeczne</h3>----------->
+                    <p><a href="wniosek-o-konsultacje.html" target="_blank">o konsultacjach</a></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </a>
+        </div>
+      </div>  
+      </div>
+      
+      <div class="portfolio participation easy support formal starters contribute city youth alone" data-cat="card">
+        <div class="portfolio-wrapper">      
+          <a class="popup-with-zoom-anim" href="#small-dialog4">
+            <ul class="ch-grid">
+              <li>
+                <div class="ch-item ch-img-4">
+                  <div class="ch-info">
+                    <img src="images/zoom-white.png"/>
+                    <!----<h3>konsultacje społeczne</h3>----------->
+                    <p><a href="konsultacje-spoleczne.html" target="_blank">o konsultacjach</a></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </a>
+        </div>
+      </div>  
+      <div class="hide">  
+      <div class="portfolio participation doit initiative informal urge passive youth withmasses" data-cat="app">
+        <div class="portfolio-wrapper">
+          <a class="popup-with-zoom-anim" href="#small-dialog5">
+            <ul class="ch-grid">
+              <li>
+                <div class="ch-item ch-img-5">
+                  <div class="ch-info">
+                    <img src="images/zoom-white.png"/>
+                    <!----<h3>petycja</h3>----------->
+                    <p><a href="pisanie-petycji.html" target="_blank">o pisaniu petycji</a></p>
+                    <!-- http://www.petycje.pl/petycjeNowa.php -->
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </a>
+        </div>
+      </div>  
+      </div>  
+      <div class="hide">
+      <div class="portfolio participation easy support informal urge passive youth alone" data-cat="card">
+        <div class="portfolio-wrapper">      
+          <a class="popup-with-zoom-anim" href="#small-dialog6">
+            <ul class="ch-grid">
+              <li>
+                <div class="ch-item ch-img-6">
+                  <div class="ch-info">
+                    <img src="images/zoom-white.png"/>
+                    <!----<h3>podpisanie petycji</h3>----------->
+                    <p><a href="podpisanie-petycji.html" target="_blank">o podpisywaniu petycji</a></p>
+                    <!-- petition.list.html -->
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </a>
+        </div>
+      </div>  
+      </div>
+      <div>
+      <div class="portfolio participation doit initiative formal starters passive adults withpeople" data-cat="card">
+        <div class="portfolio-wrapper">      
+          <a class="popup-with-zoom-anim" href="#small-dialog7">
+            <ul class="ch-grid">
+              <li>
+                <div class="ch-item ch-img-7">
+                  <div class="ch-info">
+                    <img src="images/zoom-white.png"/>
+                    <!----<h3>projekt do budżetu obywatelskiego</h3>----------->
+                    <p><a href="projekt-do-budzetu.html" target="_blank">o projektach do budżetu obywat.</a></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </a>
+        </div>
+      </div>  
+      </div>
+      <div>
+      <div class="portfolio participation easy support formal starters contribute adults alone" data-cat="logo" id="hide">
+        <div class="portfolio-wrapper">      
+          <a class="popup-with-zoom-anim" href="#small-dialog8">
+            <ul class="ch-grid">
+              <li>
+                <div class="ch-item ch-img-8">
+                  <div class="ch-info">
+                    <img src="images/zoom-white.png"/>
+                    <!----<h3>głosowanie na budżet obywatelski</h3>----------->
+                    <p><a href="glosowanie-na-budzet.html" target="_blank">o głosowaniu na budżet obywat.</a></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio participation doit initiative formal starters passive adults alone" data-cat="logo">
+        <div class="portfolio-wrapper">        
+          <a class="popup-with-zoom-anim" href="#small-dialog9">
+            <ul class="ch-grid">
+              <li>
+                <div class="ch-item ch-img-9">
+                  <div class="ch-info">
+                    <img src="images/zoom-white.png"/>
+                    <!----<h3>wniosek o DIP</h3>----------->
+                    <p><a href="wniosek-o-dip.html" target="_blank">o DIP</a></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio participation doit initiative formal starters contribute adults withpeople" data-cat="logo">
+        <div class="portfolio-wrapper">        
+          <a class="popup-with-zoom-anim" href="#small-dialog10">
+            <ul class="ch-grid">
+              <li>
+                <div class="ch-item ch-img-10">
+                  <div class="ch-info">
+                    <img src="images/zoom-white.png"/>
+                    <!----<h3>inicjatywa lokalna</h3>----------->
+                    <p><a href="inicjatywa-lokalna.html"target="_blank">o inicjatywie lokalnej</a></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio participation chucknorris initiative formal urge passive adults withmasses" data-cat="logo">
+        <div class="portfolio-wrapper">        
+          <a class="popup-with-zoom-anim" href="#small-dialog11">
+            <ul class="ch-grid">
+              <li>
+                <div class="ch-item ch-img-11">
+                  <div class="ch-info">
+                    <img src="images/zoom-white.png"/>
+                    <!----<h3>zwołanie referendum lokalnego</h3>----------->
+                    <p><a href="zwolanie-referendum.html" target="_blank">o zwoływaniu referendum</a></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio participation easy support formal urge passive adults alone" data-cat="logo">
+        <div class="portfolio-wrapper">        
+          <a class="popup-with-zoom-anim" href="#small-dialog12">
+            <ul class="ch-grid">
+              <li>
+                <div class="ch-item ch-img-12">
+                  <div class="ch-info">
+                    <img src="images/zoom-white.png"/>
+                    <!----<h3>głosowanie w referendum lokalnym</h3>----------->
+                    <p><a href="glosowanie-w-referendum.html" target="_blank">o głosowaniu</a></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio participation chucknorris formal initiative starters contribute adults withmasses" data-cat="logo">
+        <div class="portfolio-wrapper">        
+          <a class="popup-with-zoom-anim" href="#small-dialog13">
+            <ul class="ch-grid">
+              <li>
+                <div class="ch-item ch-img-13">
+                  <div class="ch-info">
+                    <img src="images/zoom-white.png"/>
+                    <!----<h3>obywatelska inicjatywa uchwałodawcza</h3>----------->
+                    <p><a href="pisanie-inicjatywy-uchwalodawczej.html" target="_blank">o inicjatywie uchwałod.</a></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio participation doit support formal starters passive adults alone" data-cat="logo">
+        <div class="portfolio-wrapper">        
+          <a class="popup-with-zoom-anim" href="#small-dialog14">
+            <ul class="ch-grid">
+              <li>
+                <div class="ch-item ch-img-14">
+                  <div class="ch-info">
+                    <img src="images/zoom-white.png"/>
+                    <!----<h3>poparcie obywatelskiej inicjatywy uchwałodawczej</h3>----------->
+                    <p><a href="podpisanie-inicjatywy-uchwalodawczej.html" target="_blank">o podpisywaniu inicjatywy</a></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio participation chucknorris initiative formal starters contribute adults withmasses" data-cat="logo">
+        <div class="portfolio-wrapper">        
+          <a class="popup-with-zoom-anim" href="#small-dialog15">
+            <ul class="ch-grid">
+              <li>
+                <div class="ch-item ch-img-15">
+                  <div class="ch-info">
+                    <img src="images/zoom-white.png"/>
+                    <!----<h3>kandydowanie w wyborach samorządowych</h3>----------->
+                    <p><a href="kandydowanie-w-wyborach.html" target="_blank">o kandydowaniu w wyborach</a></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio participation easy support formal starters passive adults alone" data-cat="logo">
+        <div class="portfolio-wrapper">        
+          <a class="popup-with-zoom-anim" href="#small-dialog16">
+            <ul class="ch-grid">
+              <li>
+                <div class="ch-item ch-img-16">
+                  <div class="ch-info">
+                    <img src="images/zoom-white.png"/>
+                       <!-- <h3>głosowanie w wyborach samorządowych</h3> -->
+                    <p><a href="glosowanie-w-wyborach.html" target="_blank">o głosowaniu w wyborach</a></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio participation doit initiative formal urge passive adults withmasses withpeople alone" data-cat="logo">
+        <div class="portfolio-wrapper">        
+          <a class="popup-with-zoom-anim" href="#small-dialog17">
+            <ul class="ch-grid">
+              <li>
+                <div class="ch-item ch-img-17">
+                  <div class="ch-info">
+                    <img src="images/zoom-white.png"/>
+                    <!----<h3>zwołanie manifestacji</h3>----------->
+                    <p><a href="zwolanie-manifestacji.html" target="_blank">o zwoływaniu manifestacji</a></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio participation easy support informal urge passive youth alone" data-cat="logo">
+        <div class="portfolio-wrapper">        
+          <a class="popup-with-zoom-anim" href="#small-dialog18">
+            <ul class="ch-grid">
+              <li>
+                <div class="ch-item ch-img-18">
+                  <div class="ch-info">
+                    <img src="images/zoom-white.png"/>
+                    <!----<h3>udział w manifestacji</h3>----------->
+                    <p><a href="udzial-w-manifestacji.html" target="_blank">o udziale w manifestacji</a></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio other" data-cat="logo">
+        <!--portfolio doit initiative formal starters contribute adults-->
+        <div class="portfolio-wrapper">        
+          <a class="popup-with-zoom-anim" href="#small-dialog19">
+            <ul class="ch-grid">
+              <li>
+                <div class="ch-item ch-img-19">
+                  <div class="ch-info">
+                    <img src="images/zoom-white.png"/>
+                    <!----<h3>projekt grantowy</h3>----------->
+                    <p><a href="projekt-grantowy.html" target="_blank">o projektach grantowych</a></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </a>
+        </div>
+      </div>
+        <div class="portfolio other" data-cat="logo">
+          <!--portfolio easy initiative formal informal starters contribute youth-->
+        <div class="portfolio-wrapper">        
+          <a class="popup-with-zoom-anim" href="#small-dialog20">
+            <ul class="ch-grid">
+              <li>
+                <div class="ch-item ch-img-20">
+                  <div class="ch-info">
+                    <img src="images/zoom-white.png"/>
+                    <!----<h3>wolontariat</h3>----------->
+                    <p><a href="wolontariat.html" target="_blank">o wolontariacie</a></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </a>
+        </div>
+      </div>
+        <div class="portfolio other" data-cat="logo">
+          <!--portfolio doit initiative formal starters passive adults-->
+        <div class="portfolio-wrapper">        
+          <a class="popup-with-zoom-anim" href="#small-dialog21">
+            <ul class="ch-grid">
+              <li>
+                <div class="ch-item ch-img-21">
+                  <div class="ch-info">
+                    <img src="images/zoom-white.png"/>
+                    <!----<h3>zbiórka pieniężna</h3>----------->
+                    <p><a href="organizacja-zbiorki-publicznej.html" target="_blank">o zbiórkach publicznych</a></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio other" data-cat="logo">
+        <!--portfolio easy support informal starters contribute youth-->
+        <div class="portfolio-wrapper">        
+          <a class="popup-with-zoom-anim" href="#small-dialog22">
+            <ul class="ch-grid">
+              <li>
+                <div class="ch-item ch-img-22">
+                  <div class="ch-info">
+                    <img src="images/zoom-white.png"/>
+                    <!----<h3>datek na zbiórkę publiczną</h3>----------->
+                    <p><a href="wsparcie-zbiorki-publicznej.html" target="_blank">o wspieraniu zbiórek</a></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </a>
+        </div>
+      </div>  
+    </div>
+    </div>    
+  
+  </div><!-- container -->
+  
+  <script type="text/javascript" src="js/fliplightbox.min.js"></script>
+  <script type="text/javascript">$('body').flipLightBox()</script>
+  <div class="clear"> </div>
+
 <!---End-gallery----->
-<!-----start-about-------->
-<div class="about" id="about">
-	<div class="wrap">
-	<h2>Partnerzy i przyjaciele projektu <span>Nie tylko wybory</span></h2>
-	<p>Projekt "Nie tylko wybory" powstał dzięki współdziałaniu kilku łódzkich organizacji pozarządowych: Stowarzyszenia X, Fundacji Y i Instytutowi Z. <br>Zainiacjowany w ramach akcji Koduj dla Polski w Łodzi.<br><br>Motywacją do jego powstania była chęć szerzenia idei partycypacji obywatelskiej w Łodzi w różnych formach. <br><br>Inicjatywę tę popierają m.in.:</p>
-		<div class="about-grids">
-			<div class="grid">
-				<div class="dc_zoom_css">
-				<span class="roll_css6">
-					<div class="social">
-						<ul>
-							<li><a class="sharefacebook" href="#"> </a> </li>
-							<li><a class="sharetwitter" href="#"> </a> </li>
-							<li><a class="sharetgoogle" href="#"> </a> </li>
-							<li><a class="sharedrible" href="#"> </a> </li>
-							<div class="clear"> </div>
-						</ul>
-					</div>
-				</span>
-				<img class="post-person" src="images/img1.jpg">
-				</div>
-				<div class="desc">
-					<h3>Lorem Ipsum is Simply</h3>
-					<p>project manager</p>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Sed ut perspiciatis unde omnis iste natus error sit voluptatem,Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
-				</div>
-		
-			</div>
-			<div class="grid">
-				<div class="dc_zoom_css">
-				<span class="roll_css6">
-					<div class="social">
-						<ul>
-							<li><a class="sharefacebook" href="#"> </a> </li>
-							<li><a class="sharetwitter" href="#"> </a> </li>
-							<li><a class="sharetgoogle" href="#"> </a> </li>
-							<li><a class="sharedrible" href="#"> </a> </li>
-							<div class="clear"> </div>
-						</ul>
-					</div>
-				</span>
-				<img class="post-person" src="images/img2.jpg">
-				</div>
-				<div class="desc">
-					<h3>Lorem Ipsum is Simply</h3>
-					<p>project manager</p>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Sed ut perspiciatis unde omnis iste natus error sit voluptatem,Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
-				</div>
-			</div>
-			<div class="grid">
-				<div class="dc_zoom_css">
-				<span class="roll_css6">
-					<div class="social">
-						<ul>
-							<li><a class="sharefacebook" href="#"> </a> </li>
-							<li><a class="sharetwitter" href="#"> </a> </li>
-							<li><a class="sharetgoogle" href="#"> </a> </li>
-							<li><a class="sharedrible" href="#"> </a> </li>
-							<div class="clear"> </div>
-						</ul>
-					</div>
-				</span>
-				<img class="post-person" src="images/img3.jpg">
-				</div>
-				<div class="desc">
-					<h3>Lorem Ipsum is Simply</h3>
-					<p>project manager</p>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Sed ut perspiciatis unde omnis iste natus error sit voluptatem,Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
-				</div>
-			</div>
-			<div class="clear"> </div>
-		</div>
-	</div>
+
 </div>
-<!---------end-about------------->
+</div>
 
+  </div>
+  
+  <!--end participation-->
+  
+  <!-----start-about-------->
+  <div class="about" id="about">
+    <div class="wrap">
+    <h2>Partnerzy i przyjaciele projektu <span>Nie tylko wybory</span></h2>
+    <p>Strona "Nie tylko wybory" istnieje dzięki współpracy organizacji i ludzi.</p>
+    <div class="about-grids">
+      <div class="grid">
+      <div class="dc_zoom_css">
+      <span class="roll_css6">
+        <div class="social">
+        <ul>
+          <li><a class="sharefacebook" href="https://www.facebook.com/" target="_blank"> </a> </li>
+          <li><a class="sharetwitter" href="#"> </a> </li>
+          <li><a class="sharetgoogle" href="#"> </a> </li>
+          <div class="clear"> </div>
+        </ul>
+        </div>
+      </span>
+      <img class="post-person" src="images/org1.png">
+      </div>
+      <div class="desc">
+        <h3>Fundacja X</h3>
+        <p>Slogan</p>
+        <p>Fundacja wspiera obywatelską inicjatywę ustawodawczą oraz łódzkie ruchy obywatelskie.</p>
+      </div>
+      </div>
+      
+      <div class="grid">
+      <div class="dc_zoom_css">
+      <span class="roll_css6">
+        <div class="social">
+        <ul>
+          <li><a class="sharefacebook" href="https://www.facebook.com/" target="_blank"> </a> </li>
+          <li><a class="sharetwitter" href="#"> </a> </li>
+          <li><a class="sharetgoogle" href="#"> </a> </li>
+          <div class="clear"> </div>
+        </ul>
+        </div>
+      </span>
+      <img class="post-person" src="images/org1.png">
+      </div>
+      <div class="desc">
+        <h3>Fundacja X</h3>
+        <p>Slogan</p>
+        <p>Fundacja wspiera obywatelską inicjatywę ustawodawczą oraz łódzkie ruchy obywatelskie.</p>
+      </div>
+      </div>
+      
+      <div class="grid">
+      <div class="dc_zoom_css">
+      <span class="roll_css6">
+        <div class="social">
+        <ul>
+          <li><a class="sharefacebook" href="https://www.facebook.com/" target="_blank"> </a> </li>
+          <li><a class="sharetwitter" href="#"> </a> </li>
+          <li><a class="sharetgoogle" href="#"> </a> </li>
+          <div class="clear"> </div>
+        </ul>
+        </div>
+      </span>
+      <img class="post-person" src="images/org1.png">
+      </div>
+      <div class="desc">
+        <h3>Fundacja X</h3>
+        <p>Slogan</p>
+        <p>Fundacja wspiera obywatelską inicjatywę ustawodawczą oraz łódzkie ruchy obywatelskie.</p>
+      </div>
+      </div>
+      
+      
+      <div class="grid">
+      <div class="dc_zoom_css">
+      <span class="roll_css6">
+        <div class="social">
+        <ul>
+          <li><a class="sharefacebook" href="https://www.facebook.com/" target="_blank"> </a> </li>
+          <li><a class="sharetwitter" href="#"> </a> </li>
+          <li><a class="sharetgoogle" href="#"> </a> </li>
+          <div class="clear"> </div>
+        </ul>
+        </div>
+      </span>
+      <img class="post-person" src="images/org1.png">
+      </div>
+      <div class="desc">
+        <h3>Fundacja X</h3>
+        <p>Slogan</p>
+        <p>Fundacja wspiera obywatelską inicjatywę ustawodawczą oraz łódzkie ruchy obywatelskie.</p>
+      </div>
+      </div>
+      <div class="clear"> </div>
+    </div>
+    </div>
+  </div>
+  <!---------end-about------------->
 
-<div class="contact" id="contact">
-	<div class="wrap">
-		<h2>Skontaktuj się  nami</h2>
-		<div class="section group">
-			  <div class="col span_2_of_3">
-				  <div class="contact-form">
-				  	  <form method="post" action="#">
-					    	
-					    		<input type="text" class="textbox" value="Twoje imię" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Twoje imię';}">
-						    	<input type="text" class="textbox" value="Twój email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Twój email';}">
-						    	<div class="clear"> </div>
-						   
-						    <div>
-						    	<textarea value="Twoja wiadomość" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Message';}">Twoja wiadomość</textarea>
-						    </div>
-						  <span><input type="submit" class="" value="Wyślij"></span>
-						  <div class="clear"></div>
-					    </form>
-				  </div>
-  				</div>
-				<div class="col span_1_of_3">
-					<div class="company_address">
-				     	<h5>DANE KONTAKTOWE</h5>
-						<ul class="list3">
-							<!---<li>
-								<img src="images/location.png" alt=""/>
-								<div class="extra-wrap">
-								  <p>Lorem ipsum  consectetu</p>
-								  <p>12345-Lorem ipsum  consectetu</p>
-								  <p>Lorem ipsum , consectetu</p>
-								</div>
-								<div class="clear"> </div>
-							</li>
-							--->
-							<li>
-								<img src="images/phone.png" alt=""/>
-								<div class="extra-wrap">
-									<p>+48 111 222 333</p>
-								</div>
-								<div class="clear"> </div>
-							</li>
-							<li>
-								<img src="images/mail.png" alt=""/>
-								<div class="extra-wrap">
-									<p> <a href="mailto:info@mycompany.com"> info(at)domena.com</a></p>
-								</div>
-								<div class="clear"> </div>
-							</li>
-						</ul>
-				   </div>
-				 </div>
-				 <div class="clear"></div>
-			  </div>
-			  </div>
-     	</div>
-     <div class="footer-bottom">
-     	<div class="wrap">
+  <!----- hackathon-----> 
+      
+  <div class="hkt" id="hkt">
+    <div class="wrap">
+    <h2>Zwycięzca hackathonu <span>Code For Freedom w Gdańsku</span></h2>
+    <p>
+     "Nie tylko wybory" zwyciężyło międzynarodowy hackthon <a href="http://epf.org.pl/pl/2014/10/06/1386/" target="_blank"> Code For Freedom</a> poświęcone IT w służbie demokracji i spraw obywatelskich. <br>
+     Dwudniowy sprint zorganizowany był przez Instytut Lecha Wałęsy, Fundację ePaństwo (Fundament), Teplitsę: Technologie dla Społeczeństwa oraz Europejskie Centrum Solidarności. W skład jury weszli Anna Sienicka z Fundacji TechSoup, Michał Mach z inicjatywy InfoZmiana, CiviCRM Polska i warszawskiego Hackerspace, Jerzy Brodzikowski z Instytutu Lecha Wałęsy oraz Denis Gursky z ukraińskiej organizacji SocialBoost. 
+     <br><br> Serdeczne podziękowania za uznanie!
+      </p>
+    </div>
+  </div>
+
+  <!---------start-contact------------->
+  <div class="contact" id="contact"style="text-align: center;">
+    <div class="wrap">
+      
+    <h2>Kontakt</h2>
+     <!-- 
+    <div class="section group">
+      <div class="col span_2_of_3">
+        <div class="contact-form">
+          <form action="MAILTO:fundacja@chomonto.pl" method="post" enctype="text/plain">
+          
+            <input type="text" class="textbox" value="Twoje imię" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Twoje imię';}">
+            <input type="text" class="textbox" value="Twój email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Twój email';}">
+            <div class="clear"> </div>
+           
+          <div>
+            <textarea value="Twoja wiadomość" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Message';}">Twoja wiadomość</textarea>
+          </div>
+          <span><input type="submit" class="" value="Wyślij"></span>
+          <div class="clear"></div>
+          </form>
+        </div>
+        </div>
+      <div class="col span_1_of_3">
+      
+        <div class="company_address">
+           <h5>SKONTAKTUJ SIĘ Z NAMI</h5>
+        <ul class="list3">       
+          <li>
+          <img src="images/location.png" alt=""/>
+          <div class="extra-wrap">
+            <p>Lorem ipsum  consectetu</p>
+            <p>12345-Lorem ipsum  consectetu</p>
+            <p>Lorem ipsum , consectetu</p>
+          </div>
+          <div class="clear"> </div>
+          </li>          
+          <li>
+          <img src="images/phone.png" alt=""/>
+          <div class="extra-wrap">
+            <p>+48 794 790 958</p>
+          </div>
+          <div class="clear"> </div>
+          </li>
+          <li>
+          <img src="images/mail.png" alt=""/>
+          <div class="extra-wrap">
+            <p> <a href="mailto: fundacja@chomonto.pl"> fundacja@chomonto.pl</a></p>
+          </div>
+          <div class="clear"> </div>
+          </li>
+        </ul>
+         </div>
+       </div>
+       <div class="clear"></div>
+      </div>
+      -->
+      <div class="contact-wrap">
+        <img src="images/phone.png" style="float:left"alt=""/>
+        <p>+48 794 790 958</p>
+        <div class="clear"> </div>
+        <img src="images/mail.png" style="float:left" alt=""/>
+        <p> fundacja@chomonto.pl</p>
+        <div class="clear"> </div>
+        
+        </div>
+   
+      
+          
+      </div>
+     </div>
+    <!---------end-contact------------->
+       
+     <!-- <div class="footer-bottom">
+       <div class="wrap">
         <div class="copy">
-		    <p class="copy">&#169 2014 Template by  <a href="http://w3layouts.com" target="_blank">w3layouts</a> </p>
-		</div>
-		 <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
-		 <script src="js/jquery.scrollTo.js"></script>
-		</div>
-	</div>
-</body>
+        <p class="copy"> Copyright 2014 HTML Template by  <a href="http://w3layouts.com" target="_blank">w3layouts</a> </p>
+       </div>
+      </div>
+  -->
+       
+      
+     <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+     <script src="js/jquery.scrollTo.js"></script>
+            
+    </div>
+
+ </body>
 </html>
