@@ -1,3 +1,10 @@
+/*
+COLORS:
+    inset 0 0 0 110px rgba(156,0,0, 0.5), --> 0,105,151,
+    inset 0 0 0 16px rgba(255,255,255,0.8),
+Lodz colors RGB: blue: 0 / 159 / 227 = #009fe3 | pink: 230 / 0 / 126 = #e6007e | yellow: 255 / 230 / 0 = FFE600 | black: 0 0 0 
+*/
+
 .ch-item {
   width: 100%;
   height: 100%;
@@ -97,6 +104,9 @@
 .ch-img-22{ 
   background-image: url(../images/icon22.png) ;
 }
+.ch-img-23{ 
+  background-image: url(../images/icon23.png) ;
+}
 
 
 .ch-info {
@@ -127,6 +137,7 @@
   height:34px;
   margin-top:18%;
 }
+
 .ch-info h3 {
   color: #fff;
   text-transform: uppercase;
@@ -139,8 +150,7 @@
     0 1px 2px rgba(0,0,0,0.3);
 }
 .ch-info h3:hover {
-  color: #fff222;
-  color: rgba(255,242,34, 0.8);
+  color: FFE600;
 }
 
 .ch-info p {
@@ -154,11 +164,9 @@
 .ch-info p a {
   display: block;
   color: #fff;
-  /*color: rgba(255,255,255,0.7);*/
   text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0,0,0,0.3);
   font-style: normal;
   font-weight: 700;
-  /*text-transform: uppercase;*/
   text-transform: capitalize;
   font-size: 18px;
   letter-spacing: 1px;
@@ -172,8 +180,7 @@
 
 .ch-item:hover {
   box-shadow: 
-    inset 0 0 0 110px rgba(156,0,0, 0.5),
-    /*inset 0 0 0 110px rgba(27,188,155, 0.8),*/
+    inset 0 0 0 110px rgba(0,105,151, 0.5), /* rgba(156,0,0, 0.5),*/
     inset 0 0 0 16px rgba(255,255,255,0.8),
     0 1px 2px rgba(0,0,0,0.1);
 }
@@ -215,7 +222,6 @@
 
 {
 .ch-grid li {
-  /*margin: 0px 10px 0px 10px;*/
   margin: 0px px 0px 0px;
 }
 }
