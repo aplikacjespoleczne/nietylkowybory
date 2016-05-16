@@ -755,6 +755,15 @@ body {
 .contact-wrap{
   width:25%;
   margin: 0 auto;
+  color: black;
+}
+
+.contact-wrap a {
+  color: #191919;
+}
+
+.contact-wrap a:hover {
+  color: #009fe3;
 }
 
 #toTop {
