@@ -1,4 +1,5 @@
 /*
+NOWE
 Author of layout: W3layout
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -41,16 +42,20 @@ light grey: #EBEBEB; !!
 dark grey: #444; !!
 darkest grey: #191919; !!
 */
-body {
+
+
+body{
   font-family: 'Lato', sans-serif;
   font-size: 100%;
   background: #ffffff;
 }
+
 .wrap
 {
   width:70%;
   margin: 0 auto;
 }
+
 /* start header */
 .header{
   padding: 1em 0em 1em 0em;
@@ -62,6 +67,8 @@ body {
 .logo a {
   display: block;
 }
+/* end header */
+
 /******start-nav********/
 .nav {
   display: none;
@@ -94,6 +101,7 @@ body {
 /************end-nav***********/
 
 
+
 /******start-nav-forms********/
 .nav-forms {
   float: right;
@@ -124,11 +132,7 @@ body {
 }
 /************end-nav-forms***********/
 
-
-
-
-
-/* start slider */
+/* start slider forms*/
 .slider_bg{
 }
 
@@ -210,7 +214,6 @@ body {
 
 /***** end forms  ****/
 
-
 /* start slider */
 .slider_bg{
   /*background:  url('../images/banner.jpg') no-repeat;
@@ -264,7 +267,7 @@ body {
   color: #444;
   font-size: 6em;
   font-weight: 700;
-  z-index: 10;
+  /*z-index: 10;*/
   text-align: center;
   padding-top: 0.7em;
 }
@@ -316,8 +319,6 @@ body {
   display: block;
   background: url(../images/buttonimghover.png);
 }
-
-
 .popbutton{
   width: 33px;
   height: 33px;
@@ -337,16 +338,18 @@ body {
   display: block;
   background: url(../images/zoom-white-hover.png);
 }
-
-
 /* start main_btm */
-.container h2{
-  color:#4D4D4D;
-  font-size: 3em;
-  padding-bottom: 0.3em;
-  text-align: center;
+
+.formslist h2 {
+    color: #4D4D4D;
+    font-size: 3em;
+    padding-bottom: 0.3em;
+    text-align: center;
+	padding-top: 7px;
 }
-.container p{
+
+
+.formslist p{
   color:#444444;
   font-size: 1.5em;
   font-weight: 300;
@@ -357,6 +360,7 @@ body {
   margin-top: 4%;
   display: block;
 }
+
 /*---start-gallery-----*/
 .gallery{
   margin-top: 4% 0%;
@@ -364,6 +368,7 @@ body {
 .gallery1 {
   padding: 0.5em 0em;
 }
+
 .container { 
   position: relative; 
   -webkit-transition: all 1s ease;
@@ -371,6 +376,7 @@ body {
   -o-transition: all 1s ease;
   transition: all 1s ease;  
 }
+
 #filters {
   margin: 0% auto;
   padding: 0;
@@ -393,11 +399,11 @@ body {
   font-size: 80%;
 }
 #filters li span:hover {
-  background: #009fe3; /*#9c0000;*/
+  background: #009fe3; #9c0000;
   color:#fff;
 }
 #filters li span.active {
-  background:#009fe3; /*#9c0000;*/
+  background:#009fe3; #9c0000;
   color:#fff;
 }
 #portfoliolist .portfolio {
@@ -452,7 +458,6 @@ body {
 .def a:hover{
   color: #e6007e;
 }
-
 /**********about-style**********/
 .grid{
   position: relative;
@@ -793,14 +798,7 @@ body {
   background: url(../images/top-move-hover.png) no-repeat right top;
 }
 
-
-
-
-
 /** border line around filter criteria**/
-
-
-
 li.searchLeft, li.searchMiddle, li.searchRight, li.searchAll {
   border-top: 1px solid #009fe3; /*#9c0000;*/
   border-bottom: 1px solid #009fe3; /*#9c0000;*/
@@ -825,7 +823,6 @@ li.searchRight, li.searchAll {
 li.searchRight {
   margin-left: 0 !important;
 }
-
 
 /******* details section *****************/
 
@@ -2135,3 +2132,401 @@ padding: 1.2em 0em;
 }
 }
 
+ 
+/**
+ * Form & Button Styles
+ */
+
+h4{
+  font-weight: 700;
+  margin-bottom: .5em;
+}
+ 
+label{
+  font-weight: 300;
+}
+ 
+button{
+  display: inline-block;
+  padding: .4em .8em;
+  background: #666;
+  border: 0;
+  margin: .1em .2em;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  border-radius: .25em;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+}
+
+button.active{
+  background: #009fe3;
+}
+
+button:focus{
+  outline: 0 none;
+}
+
+button:first-of-type{
+  margin-left: 0;
+}
+
+button:last-of-type{
+  margin-right: 0;
+}
+ 
+button:hover {
+background: #009fe3;
+}
+ 
+.controls{
+  /*background: #333;*/
+  padding-bottom: 2%;
+}
+ 
+fieldset{
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 1em 0 0;
+  /*background: #d1e3ea;*/
+  padding: .2em .3em;
+  border-radius: 2px;
+  border: 1px solid #666;
+  margin-bottom: 7px;
+}
+
+.checkbox{
+  display: block;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.checkbox input[type="checkbox"]{
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  margin: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.checkbox label{
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  padding-left: 1.5em;
+}
+
+.checkbox label:before,
+.checkbox label:after{
+  content: '';
+  display: block;
+  position: absolute;
+}
+
+.checkbox label:before{
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  background: #ddd;
+  border-radius: 3px;
+}
+
+.checkbox label:after{
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  background: #68b8c4;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.checkbox input:checked ~ label:after{
+  opacity: 1;
+}
+
+.checkbox input:focus ~ label:before{
+  background: #eee;
+}
+
+/**
+ * Container/Target Styles
+ */
+
+.container{
+  padding: 2%;
+  /*background: #68b8c4;*/
+  text-align: justify;
+}
+
+.container .mix,
+.container .gap{
+  width: 100px;
+  display: inline-block;
+  margin: 3% 12% 0% 0%;
+}
+
+.container .mix{
+  /*width: 100px;
+  height: 100px;
+  margin: 5%;
+  background: white;
+  */
+  display: none;
+}
+
+.container .mix.green{
+  /*background: #a6e6a7;*/
+}
+
+.container .mix.blue{
+ /* background: #6bd2e8;*/
+}
+
+.container .mix.circle{
+  /*border-radius: 999px;*/
+}
+
+.container .mix.triangle{
+ /* width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-top-color: #68b8c4;
+  border-left-color: #68b8c4;
+  */
+}
+
+
+
+/************* replacement hover effect on images *********/
+.icons{
+	width: 170px;
+}
+
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hovereffect:hover .overlay {
+  background-color: rgba(170,170,170,0.4);
+}
+
+.hovereffect h2, .hovereffect img {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.hovereffect:hover img {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect h2 {
+    text-transform: uppercase;
+    /* color: #fff; */
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+    padding: 4px;
+    background: rgba(255,2550, 255, 0.9);
+    margin-top: 96px;
+}
+
+.hovereffect a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 40px 0 0 0;
+    background-color: transparent;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    font-weight: normal;
+    height: 10%;
+    width: 76%;
+    position: absolute;
+    top: -20%;
+    left: 3%;
+    padding-top: 135px;
+}
+
+.hovereffect:hover a.info {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  background-color: rgba(0,0,0,0.2);
+}
+*/
+
+/*MORPH*/
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+ 
+.pic {
+  /*border: 10px solid #fff;  
+  float: left;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  overflow: hidden;
+  
+  -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111;  */
+}
+
+.morph{
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.morph:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+
+/* effect 4:
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  /*background-color: rgba(75,75,75,0.7);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hovereffect:hover .overlay {
+  background-color: rgba(0, 159, 227, 0.8); 
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 11px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transform: translateY(45px);
+  -ms-transform: translateY(45px);
+  transform: translateY(120px);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hovereffect:hover h2 {
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  transform: translateY(0px);
+}
+
+.hovereffect a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  font-weight: normal;
+  margin: -31px 0 0 0;
+  padding: 74px 53px;
+}
+
+.hovereffect:hover a.info {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect a.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+*/
