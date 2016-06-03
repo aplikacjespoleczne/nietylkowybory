@@ -62,10 +62,12 @@ $(document).ready(function()
     scrollSpeed: 1200,
     easingType: 'linear' 
   };
+  /*
   $().UItoTop({
     easingType: 'easeOutQuart'
   });
-
+  */
+/*
   $('.popup-with-zoom-anim').magnificPopup({
     type: 'inline',
     fixedContentPos: false,
@@ -77,6 +79,7 @@ $(document).ready(function()
     removalDelay: 300,
     mainClass: 'my-mfp-zoom-in'
   });
+  */
   var l = function(string) {
     return string.toLocaleString();
   };
